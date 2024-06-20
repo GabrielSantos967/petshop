@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chalé dos Cães - Resultados</title>
+</head>
+<body>
+    <script type="text/javascript" src="../scripts/script.js"></script>
+    <div class="content">
+        <h1 id="corners">RECEBIMENTO DOS DADOS DO FORMULARIO</h1>
+
+        <p class="subtitulo">JS lê os dados enviados via <b>GET</b> de um form HTML</p>
+        <table>
+            <tr><th>Chave</th><th>Valor</th></tr>
+            <script language=javascript>
+                var params = new Array();
+                params = getParameters();
+                for (let[key,value] of Object.entries(params)){
+                    document.write("<tr><td style= 'text-align: center;'><b>" + key + "</b></td><td>" + value + "</td></tr>")
+                }
+            </script>
+            <tr></tr colspan="2">
+                <input type="button" name="Retornar" value=" << Retornar"onclick="window.location.href='form.html'">>
+            <th></th>
+        </table>
+    </div>
+</body>
+</html>

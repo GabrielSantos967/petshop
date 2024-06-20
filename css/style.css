@@ -144,3 +144,49 @@ p {
     border-radius: 30px;
     padding: 10px;
 }
+
+.about{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.cats{
+    width: 400px;
+    height: 500px;
+    background-image: url('../imagens/cats.png');
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#about{
+    width: 600px;
+    font-family: 'Poppins';
+    color: white;
+}
+
+form{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input{
+    font-size: 24px;
+}
+
+#label{
+    display: flex;
+    flex-direction: column;
+}

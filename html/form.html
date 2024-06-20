@@ -12,5 +12,25 @@
         <a href="about.html">About</a>
         <a href="form.html" class="home">Form</a>
     </div>
+    <div class="formulario">
+        <form method="GET" action="formAction.html">
+            <span id="label">
+                <label for="fname">Nome:</label>
+                <input type="text" id="fname" name="fname" placeholder="Fulano" required>
+            </span>
+            <span id="label">
+                <label for="npet">Nome do pet:</label>
+                <input type="text" id="npet" name="npet" placeholder="Ciclano" required>
+            </span>
+            <span id="label">
+                <label for="phone">Telefone:</label>
+                <input type="tel" id="phone" name="phone"  placeholder="(99) 99999-9999" required>
+            </span>
+            <span id="label">
+                <input type="submit" value="Submit" >
+            </span>
+        </form>
+    </div>
+    <script src="../scripts/script.js"></script>
 </body>
 </html>
